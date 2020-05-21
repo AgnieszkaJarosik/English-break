@@ -1,7 +1,7 @@
 {
   "name": "English break",
   "description": "Dobrze wykorzystaj czas! Zamiast marnować czas w sieci lepiej poucz się angielskiego.",
-  "version": "1",
+  "version": "1.1",
   "browser_action": {
     "default_icon": {
       "16": "img/16.png",
@@ -23,9 +23,7 @@
   "permissions": [
     "tabs",
     "activeTab",
-    "storage",
-    "http://*/",
-    "https://*/"
+    "storage"
   ],
   "content_scripts": [{
       "matches": ["<all_urls>"], 

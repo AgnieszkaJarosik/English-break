@@ -7,10 +7,7 @@ chrome.runtime.onInstalled.addListener(()=>{
   urlArr = [];
   secLeft = 300;
   engSites = [
-    'https://www.perfect-english-grammar.com/grammar-exercises.html',
-    'https://www.bbc.co.uk/learningenglish/english/intermediate-grammar',
-    'https://learnenglish.britishcouncil.org/grammar/beginner-to-pre-intermediate',
-    'https://www.livemocha.co/',
+    'https://learnenglish.britishcouncil.org/grammar/beginner-to-pre-intermediate'
   ];
   chrome.storage.sync.set({
     'urls': urlArr,
